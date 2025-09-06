@@ -36,7 +36,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A showcase of my recent work and side projects
+            A Showcase Of My Recent Work And Side Projects
           </p>
         </motion.div>
 
@@ -126,7 +126,7 @@ const Projects = () => {
                   whileHover={{ scale: 1.02 }}
                 >
                   <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
-                    Hover over the image to view project links
+                    Hover Over The Image To View Project Links
                   </p>
                 </motion.div>
               </div>

@@ -87,7 +87,7 @@ const Hero = () => {
                 animate={{ backgroundPosition: ['0%', '100%', '0%'] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                Rohit Kumar
+                Rohit Kumar( )
               </motion.span>
             </h1>
             
@@ -118,9 +118,9 @@ const Hero = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
             >
-              I craft <span className="text-blue-600 dark:text-blue-400 font-semibold">beautiful</span>, 
-              <span className="text-purple-600 dark:text-purple-400 font-semibold"> functional</span> web experiences that solve real-world problems. 
-              Passionate about <span className="text-teal-600 dark:text-teal-400 font-semibold">clean code</span>, modern technologies, and user-centered design.
+              I Craft <span className="text-blue-600 dark:text-blue-400 font-semibold">Beautiful</span>, 
+              <span className="text-purple-600 dark:text-purple-400 font-semibold"> functional</span> Web Experiences That Solve Real-World Problems. 
+              Passionate About <span className="text-teal-600 dark:text-teal-400 font-semibold">Clean Code</span>, Modern Technologies, And User-Centered Design.
             </motion.p>
             
             <motion.div

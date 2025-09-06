@@ -5,8 +5,8 @@ export const projectsData = [
     description: 'A full-featured e-commerce platform with user authentication, payment processing, and admin dashboard. Built with React, Node.js, and Stripe integration.',
     techStack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'JWT'],
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubUrl: 'https://github.com/johndoe/ecommerce-platform',
-    liveUrl: 'https://ecommerce-demo.com'
+    githubUrl: 'https://github.com/Roul-max/ShoppyGlobe',
+    liveUrl: 'https://roul-max.github.io/ShoppyGlobe/'
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const projectsData = [
     description: 'A collaborative task management application with real-time updates, team workspaces, and advanced filtering. Features drag-and-drop functionality and notifications.',
     techStack: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
     image: 'https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubUrl: 'https://github.com/johndoe/task-manager',
+    githubUrl: 'https://github.com/Roul-max/To-Do-List',
     liveUrl: 'https://taskflow-app.com'
   },
   {

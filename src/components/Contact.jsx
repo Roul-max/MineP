@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'rohitkumarrrx@gmail.com', href: 'mailto:john.doe@email.com' },
+    { icon: Mail, label: 'Email', value: 'rohitkumarrrx@gmail.com', href: 'mailto:rohitkumarrrx@Gmail.com' },
     { icon: Phone, label: 'Phone', value: '+91 87890 24145', href: 'tel:+15551234567' },
     { icon: MapPin, label: 'Location', value: 'Greater Noida, UP', href: null }
   ];
@@ -117,7 +117,7 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life.
+            Have A Project In Mind? I'd Love To Hear About It And Discuss How We Can Bring Your Ideas To Life.
           </p>
         </motion.div>
 
@@ -137,8 +137,8 @@ const Contact = () => {
                 </span>
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8">
-                I'm always open to discussing new opportunities, interesting projects, 
-                or just having a chat about technology and development.
+                I'm Always Open To Discussing New Opportunities, Interesting Projects, 
+                Or Just Having A Chat About Technology And Development.
               </p>
             </div>
 
@@ -205,13 +205,13 @@ const Contact = () => {
                     className="bg-gradient-to-r from-green-100 to-emerald-100 dark:from-green-900 dark:to-emerald-900 text-green-800 dark:text-green-200 p-6 rounded-xl shadow-lg"
                   >
                     <h3 className="text-lg font-semibold mb-2">Message Sent!</h3>
-                    <p>Thank you for reaching out. I'll get back to you soon.</p>
+                    <p>Thank You For Reaching out. I'll Get Back To You Soon.</p>
                   </motion.div>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-                    Send me a message
+                    Send Me A Message
                   </h3>
                   
                   <div>

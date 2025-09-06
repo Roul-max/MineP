@@ -10,9 +10,9 @@ const About = () => {
     { name: "JavaScript", level: 95 },
     { name: "React", level: 90 },
     { name: "Node.js", level: 85 },
-    { name: "TypeScript", level: 80 },
+    { name: "Tailwind CSS", level: 80 },
     { name: "MongoDB", level: 75 },
-    { name: "MySQL", level: 85 },
+    { name: "MySQL", level: 65 },
     { name: "Python", level: 70 },
     { name: "AWS", level: 65 },
   ];
@@ -52,7 +52,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Get to know me better and discover my technical expertise
+            Get To Know Me Better And Discover My Technical Expertise
           </p>
         </motion.div>
 
@@ -82,26 +82,15 @@ const About = () => {
               transform group-hover:scale-105">
                 <img
                   src="./public/myPic.jpeg"
-                  alt="John Doe"
+                  alt="Rohit Kumar"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t 
                 from-blue-600/20 via-transparent to-purple-600/20 opacity-0 
                 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
-
-              {/* Floating emoji */}
-              <motion.div
-                animate={{ scale: [1, 1.1, 1], rotate: [0, 10, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -bottom-4 -right-4 
-                bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 rounded-full shadow-lg"
-              >
-                <span className="text-2xl">👋</span>
-              </motion.div>
             </div>
           </motion.div>
-
           {/* Bio + Skills */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
@@ -114,17 +103,17 @@ const About = () => {
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-xl shadow-lg">
                   <Trophy className="h-8 w-8 text-yellow-500 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900 dark:text-white">5+</div>
+                  <div className="text-2xl font-bold text-gray-900 dark:text-white">1.5+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Years</div>
                 </div>
                 <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-xl shadow-lg">
                   <Target className="h-8 w-8 text-green-500 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900 dark:text-white">50+</div>
+                  <div className="text-2xl font-bold text-gray-900 dark:text-white">13+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Projects</div>
                 </div>
                 <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-xl shadow-lg">
                   <Star className="h-8 w-8 text-blue-500 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900 dark:text-white">100k+</div>
+                  <div className="text-2xl font-bold text-gray-900 dark:text-white">10+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Users</div>
                 </div>
               </div>
@@ -134,13 +123,13 @@ const About = () => {
                 Passionate Full Stack Developer
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
-                With over 5 years of experience in web development, I specialize in creating
-                robust, scalable applications using modern technologies.
+                With Over 1.5 Years Of Experience In Web Development, I Specialize In Creating
+                Robust, Scalable Applications Using Modern Technologies.
               </p>
               <p className="text-gray-600 dark:text-gray-400">
-                I love working with React ecosystems, building RESTful APIs with Node.js,
-                and designing intuitive UIs. When I'm not coding, I contribute to open-source
-                projects or explore latest tech trends.
+                I Love Working With React Ecosystems, Building RESTful APIs With Node.js,
+                And Designing Intuitive UIs. When I'm Not Coding, I Contribute To Open-Source
+                Projects Or Explore Latest Tech Trends.
               </p>
 
               {/* Skills */}

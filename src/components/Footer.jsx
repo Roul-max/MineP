@@ -4,7 +4,7 @@ import { Github, Linkedin, Twitter, Mail, Code } from 'lucide-react';
 const Footer = () => {
   const socialLinks = [
     { name: 'GitHub', icon: Github, href: 'https://github.com/Roul-max' },
-    { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com/in/johndoe' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com/in/roulmax' },
     { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/johndoe' },
     { name: 'Email', icon: Mail, href: 'mailto:rohitkumarrrx@gmail.com' }
   ];
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2">
             <Code className="h-8 w-8 text-blue-600 dark:text-blue-400" />
             <span className="text-xl font-bold text-gray-900 dark:text-white">
-              Rohit Kumar 
+              Personal Portfolio
             </span>
           </div>
 

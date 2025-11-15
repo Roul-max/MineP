@@ -81,7 +81,7 @@ const About = () => {
               shadow-2xl group-hover:shadow-3xl transition-all duration-500 
               transform group-hover:scale-105">
                 <img
-                  src="myPic.jpeg"
+                  src="PP.jpeg"
                   alt="Rohit Kumar"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
